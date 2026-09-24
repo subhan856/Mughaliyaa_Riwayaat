@@ -1,1 +1,0 @@
-// Mughaliyaa Riyawaat storefront helpers
