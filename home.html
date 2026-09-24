@@ -1,6 +1,0 @@
-{% extends "base.html" %}{% block title %}Mughaliyaa Riyawaat — Luxury Pakistani Fashion{% endblock %}
-{% block content %}
-<section class="hero"><div><small>THE ROYAL COLLECTION</small><h1>Tradition,<br><i>Reimagined.</i></h1><p>Bridal, lehenga, sharara and formal wear crafted with a luxury Pakistani aesthetic.</p><a class="btn" href="{{url_for('shop')}}">EXPLORE COLLECTION</a></div></section>
-<section><div class="section-head"><h2>Featured Collection</h2><a href="{{url_for('shop')}}">View all →</a></div><div class="grid">{% for p in products %}{% include "_card.html" %}{% endfor %}</div></section>
-<section class="feature-row"><div>🔐 Secure OTP Login</div><div>📍 Live Delivery Location</div><div>💬 WhatsApp Support</div><div>🚚 Order Tracking</div></section>
-{% endblock %}
