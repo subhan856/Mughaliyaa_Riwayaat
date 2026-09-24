@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Verify OTP{% endblock %}{% block content %}<section class="auth"><h1>Verify OTP</h1><p>OTP sent to {{phone}}</p><form method="post"><label>6-digit OTP<input name="code" inputmode="numeric" maxlength="6" required></label><button class="btn">VERIFY & LOGIN</button></form></section>{% endblock %}
